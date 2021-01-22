@@ -1,0 +1,5 @@
+Links (segunda opcion) = //div[@class="news V_Title_Img" or @class="V_Title"]/a/@href
+Titulo (desde dentro de la noticia) = //div[@class="mb-auto"]//a/text()
+Cuerpo = //div[@class="html-content"]/p/text()
+Resumen = //div[@class="lead"]/p/text()
+
